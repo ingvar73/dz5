@@ -6,7 +6,7 @@
  * Time: 3:53
  */
 
-include_once 'users.php';
+include_once 'model_user.php';
 
 class Model_Login extends Model
 {

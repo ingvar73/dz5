@@ -7,7 +7,7 @@
  * Time: 23:47
  */
 
-include_once ('/app/models/users.php');
+include_once (ROOT.'/models/model_user.php');
 
 
 class Controller_Login extends Controller
@@ -18,6 +18,34 @@ class Controller_Login extends Controller
 //		$this->view = new View();
 //	}
 
+	public function actionRegistration()
+	{
+		$login = '';
+		$password = '';
+		$confirm_password = '';
+		$result = '';
+		if (isset($_POST['login'])) {
+			$login = $_POST['login'];
+			$password = $_POST['password'];
+			$cpassword = $_POST['cpassword'];
+			$errors = false;
+			if (!Users::checkUsernameRegistartion($login)) {
+				$errors[] = 'Username введен неверно, он должен быть длиной от 1 до 100 символов';
+			}
+			if (!Users::checkPasswordRegistration($password, $cpassword)) {
+				$errors[] = 'Пароль введен неверно, он должен быть длиной от 1 до 50 символов, а так же пароли должны совпадать';
+			}
+			if (Users::checkUsernameExist($login)) {
+				$errors [] = 'Такой пользователь уже существует, выберите другой никнейм';
+			}
+			if ($errors == false) {
+				// Сохраняем пользователя в базе данных
+				$result = Users::regUser($login, $password);
+			}
+		}
+		require_once(ROOT . '/views/reg_view.php');
+		return true;
+	}
 
 	public function action_index()
     {
@@ -36,7 +64,7 @@ class Controller_Login extends Controller
 		if (isset($_SESSION['user'])) {
 			$files = Users::getFilesListById($_SESSION['user']);
 			$count_files = count($files);
-			$avatar = Users::getAvatarFileName($_SESSION['user']);
+			$avatar = Users::getAvatar($_SESSION['user']);
 			$this->view->generate('user_view.php', 'template_view.php');
 		} else {
 			$this->view->generate('index_view.php', 'template_view.php');

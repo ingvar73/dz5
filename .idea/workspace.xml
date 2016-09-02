@@ -7,9 +7,8 @@
     <list default="true" id="867e7a6c-19bd-43d9-8569-5dbbdcf0ca47" name="Failed commit: Default" comment="&#10;    MVC&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/controller_login.php" afterPath="$PROJECT_DIR$/app/controllers/controller_login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/users.php" afterPath="$PROJECT_DIR$/app/models/users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/login_view.php" afterPath="$PROJECT_DIR$/app/views/login_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/reg_view.php" afterPath="$PROJECT_DIR$/app/views/reg_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/model_login.php" afterPath="$PROJECT_DIR$/app/models/model_login.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/users.php" afterPath="$PROJECT_DIR$/app/models/model_user.php" />
     </list>
     <ignored path="dz5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,18 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/users.php">
+      <file leaf-file-name="model_user.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/model_user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+            <state relative-caret-position="85">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding>
-                <marker date="1472821079935" expanded="true" signature="293:343" ph="SELECT * FRO... users" />
-                <marker date="1472821079935" expanded="true" signature="1587:1649" ph="INSERT INTO users... " />
-                <marker date="1472821079935" expanded="true" signature="2210:2247" ph="SELECT avata... users" />
-                <marker date="1472821079935" expanded="true" signature="2210:2261" ph="SELECT avata... users" />
-                <marker date="1472821079935" expanded="true" signature="2429:2464" ph="SELECT file photo" />
-                <marker date="1472821079935" expanded="true" signature="2429:2485" ph="SELECT file photo" />
+                <marker date="1472823103457" expanded="true" signature="312:362" ph="SELECT * FRO... users" />
+                <marker date="1472823103457" expanded="true" signature="1606:1668" ph="INSERT INTO users... " />
+                <marker date="1472823103457" expanded="true" signature="2229:2266" ph="SELECT avata... users" />
+                <marker date="1472823103457" expanded="true" signature="2229:2280" ph="SELECT avata... users" />
+                <marker date="1472823103457" expanded="true" signature="2448:2483" ph="SELECT file photo" />
+                <marker date="1472823103457" expanded="true" signature="2448:2504" ph="SELECT file photo" />
+                <marker date="1472823103457" expanded="true" signature="3008:3052" ph="SELECT file photo" />
               </folding>
             </state>
           </provider>
@@ -65,8 +65,8 @@
       <file leaf-file-name="controller_login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/controller_login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+            <state relative-caret-position="153">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding>
                 <element signature="e#7#91#0#PHP" expanded="true" />
               </folding>
@@ -130,7 +130,6 @@
         <option value="$PROJECT_DIR$/app/views/reg.php" />
         <option value="$PROJECT_DIR$/app/views/twig/reg_view.twig" />
         <option value="$PROJECT_DIR$/app/models/model_reg.php" />
-        <option value="$PROJECT_DIR$/app/models/model_user.php" />
         <option value="$PROJECT_DIR$/app/views/template_view.php" />
         <option value="$PROJECT_DIR$/app/views/twig/layout.twig" />
         <option value="$PROJECT_DIR$/app/views/twig/main_view.twig" />
@@ -165,8 +164,9 @@
         <option value="$PROJECT_DIR$/components/Db.php" />
         <option value="$PROJECT_DIR$/config/db_params.php" />
         <option value="$PROJECT_DIR$/app/views/login_view.php" />
-        <option value="$PROJECT_DIR$/app/models/users.php" />
         <option value="$PROJECT_DIR$/app/views/reg_view.php" />
+        <option value="$PROJECT_DIR$/app/models/users.php" />
+        <option value="$PROJECT_DIR$/app/models/model_user.php" />
         <option value="$PROJECT_DIR$/app/controllers/controller_login.php" />
       </list>
     </option>
@@ -415,7 +415,7 @@
       <workItem from="1472681369941" duration="1165000" />
       <workItem from="1472748710949" duration="135000" />
       <workItem from="1472761029409" duration="7811000" />
-      <workItem from="1472802517833" duration="9501000" />
+      <workItem from="1472802517833" duration="10397000" />
     </task>
     <task id="LOCAL-00001" summary="а">
       <created>1472584945450</created>
@@ -501,11 +501,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472819869743</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="&#10;    MVC&#10;">
+      <created>1472822274828</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1472822274828</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61527000" />
+    <option name="totallyTimeSpent" value="62423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -516,7 +523,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.509375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.49582464" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.49582464" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.490625" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -741,21 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
-          <folding>
-            <marker date="1472821079935" expanded="true" signature="293:343" ph="SELECT * FRO... users" />
-            <marker date="1472821079935" expanded="true" signature="1587:1649" ph="INSERT INTO users... " />
-            <marker date="1472821079935" expanded="true" signature="2210:2247" ph="SELECT avata... users" />
-            <marker date="1472821079935" expanded="true" signature="2210:2261" ph="SELECT avata... users" />
-            <marker date="1472821079935" expanded="true" signature="2429:2464" ph="SELECT file photo" />
-            <marker date="1472821079935" expanded="true" signature="2429:2485" ph="SELECT file photo" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/reg_view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -804,10 +796,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/model_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <marker date="1472823103457" expanded="true" signature="312:362" ph="SELECT * FRO... users" />
+            <marker date="1472823103457" expanded="true" signature="1606:1668" ph="INSERT INTO users... " />
+            <marker date="1472823103457" expanded="true" signature="2229:2266" ph="SELECT avata... users" />
+            <marker date="1472823103457" expanded="true" signature="2229:2280" ph="SELECT avata... users" />
+            <marker date="1472823103457" expanded="true" signature="2448:2483" ph="SELECT file photo" />
+            <marker date="1472823103457" expanded="true" signature="2448:2504" ph="SELECT file photo" />
+            <marker date="1472823103457" expanded="true" signature="3008:3052" ph="SELECT file photo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/controller_login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="e#7#91#0#PHP" expanded="true" />
           </folding>

@@ -6,7 +6,7 @@
  * Date: 02.09.2016
  * Time: 1:23
  */
-class Users
+class Model_User extends Model
 {
 	/**Возвращаем объект $user если он существует
 	 * @param $login
@@ -103,6 +103,17 @@ class Users
 			return $pathAvatar;
 		}
 		return false;
+	}
+
+	// Возвращает массив со всеми файлами загруженными пользователей с указанным ID или false если файлов нет
+	public static function getFilesListById($id)
+	{
+		$db = Db::getConnection();
+		$sql = "SELECT file FROM photo WHERE user_id = '$id'";
+		$files = $db->query($sql);
+		$files->setFetchMode(PDO::FETCH_ASSOC);
+		$files = $files->fetchAll();
+		return $files;
 	}
 
 	public static function logOut(){
