@@ -8,8 +8,16 @@
  */
 class Controller_Login extends Controller
 {
-    public function action_index()
+	public function __construct()
+	{
+		$this->model = new Model_Login();
+		$this->view = new View();
+	}
+
+
+	public function action_index()
     {
-        $this->view->generate('Страница Входа', 'login.php');
+//    	$data = $this->model->get_data();
+		$this->view->generate('login_view.php', 'template_view.php');
     }
 }

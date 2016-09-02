@@ -7,7 +7,8 @@
  */
 
 class Model{
-    public function get(){
+    public function get_data()
+	{
 
     }
 }

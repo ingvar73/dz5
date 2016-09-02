@@ -32,11 +32,12 @@ class Routing
         }
         $fileWithController = strtolower($controllerName).'.php';
         $fileWithControllerPath = "app/controllers/".$fileWithController;
+
         if (file_exists($fileWithControllerPath)){
             include $fileWithControllerPath;
         } else {
             // Вывод ошибки
-            //  404.php
+            //  404_view.php
             Routing::ErrorPage404();
 //            echo "Ошибка 404";
         }

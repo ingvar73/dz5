@@ -6,22 +6,81 @@
  * Time: 3:53
  */
 
-class Validate
+include_once 'users.php';
+
+class Model_Login extends Model
 {
-	public function __construct () //Инициализируем методы
+	private $login;
+	private $name;
+	private $age;
+	private $about;
+	private $password;
+	private $cpassword;
+
+	public $data;
+	public function __construct()
 	{
-		$result_login = $this->ver_login($login);
-		$result_name = $this->ver_name($name);
-		$result_age = $this->ver_age($age);
-		$result_about = $this->ver_about($about);
-		$result_pass = $this->ver_pass($pass, $pass1);
-		$result_avatar = $this->ver_avatar($avatar);
-		if($result_login and $result_name and $result_age and $result_about and $result_pass and $result_avatar){
-			$this->result = true;
-			return $this->result;
-		} else{
-			$this->result = false;
-			return $this->result;
-		}
+		$this->data = $_POST;
+		$this->model = new Model($this->data);
+	}
+	public function get_data()
+	{
+
+	}
+
+	public function db_connect()
+	{
+
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getLogin()
+	{
+		$this->login = $_POST['login'];
+		return $this->login;
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getName()
+	{
+		$this->name = $_POST['name'];
+		return $this->name;
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getAge()
+	{
+		$this->age = $_POST['age'];
+		return $this->age;
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getAbout()
+	{
+		$this->about = $_POST['about'];
+		return $this->about;
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getPassword()
+	{
+		$this->password = $_POST['password'];
+		return $this->password;
+	}
+
+	public function getCpassword()
+	{
+		$this->cpassword = $_POST['cpassword'];
+		return $this->password;
 	}
 }
