@@ -7,7 +7,8 @@
  * Time: 23:47
  */
 
-include_once (ROOT.'/models/model_user.php');
+include_once ('app/models/model_user.php');
+include_once ('app/models/redirect.php');
 
 
 class Controller_Login extends Controller

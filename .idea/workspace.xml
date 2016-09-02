@@ -5,10 +5,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/Db.php" afterPath="$PROJECT_DIR$/components/Db.php" />
     </list>
     <list default="true" id="867e7a6c-19bd-43d9-8569-5dbbdcf0ca47" name="Failed commit: Default" comment="&#10;    MVC&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/redirect.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/controller_login.php" afterPath="$PROJECT_DIR$/app/controllers/controller_login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/model_login.php" afterPath="$PROJECT_DIR$/app/models/model_login.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/users.php" afterPath="$PROJECT_DIR$/app/models/model_user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/model_user.php" afterPath="$PROJECT_DIR$/app/models/model_user.php" />
     </list>
     <ignored path="dz5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,36 +38,52 @@
       <file leaf-file-name="model_login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/model_login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model_user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/model_user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="358">
+              <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
               <folding>
-                <marker date="1472823103457" expanded="true" signature="312:362" ph="SELECT * FRO... users" />
-                <marker date="1472823103457" expanded="true" signature="1606:1668" ph="INSERT INTO users... " />
-                <marker date="1472823103457" expanded="true" signature="2229:2266" ph="SELECT avata... users" />
-                <marker date="1472823103457" expanded="true" signature="2229:2280" ph="SELECT avata... users" />
-                <marker date="1472823103457" expanded="true" signature="2448:2483" ph="SELECT file photo" />
-                <marker date="1472823103457" expanded="true" signature="2448:2504" ph="SELECT file photo" />
-                <marker date="1472823103457" expanded="true" signature="3008:3052" ph="SELECT file photo" />
+                <marker date="1472823437461" expanded="true" signature="345:395" ph="SELECT * FRO... users" />
+                <marker date="1472823437461" expanded="true" signature="1639:1701" ph="INSERT INTO users... " />
+                <marker date="1472823437461" expanded="true" signature="2262:2313" ph="SELECT avata... users" />
+                <marker date="1472823437461" expanded="true" signature="2481:2537" ph="SELECT file photo" />
+                <marker date="1472823437461" expanded="true" signature="3041:3085" ph="SELECT file photo" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller_login.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="redirect.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/redirect.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model_user.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/model_user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="121" column="5" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+              <folding>
+                <marker date="1472823553198" expanded="true" signature="312:362" ph="SELECT * FRO... users" />
+                <marker date="1472823553198" expanded="true" signature="1606:1668" ph="INSERT INTO users... " />
+                <marker date="1472823553198" expanded="true" signature="2229:2266" ph="SELECT avata... users" />
+                <marker date="1472823553198" expanded="true" signature="2229:2280" ph="SELECT avata... users" />
+                <marker date="1472823553198" expanded="true" signature="2448:2483" ph="SELECT file photo" />
+                <marker date="1472823553198" expanded="true" signature="2448:2504" ph="SELECT file photo" />
+                <marker date="1472823553198" expanded="true" signature="3008:3052" ph="SELECT file photo" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controller_login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/controller_login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="170">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
               <folding>
                 <element signature="e#7#91#0#PHP" expanded="true" />
               </folding>
@@ -117,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/controllers/LoginController.php" />
         <option value="$PROJECT_DIR$/models/Login.php" />
         <option value="$PROJECT_DIR$/views/news/index.php" />
         <option value="$PROJECT_DIR$/config/routes.php" />
@@ -160,14 +176,15 @@
         <option value="$PROJECT_DIR$/components/db.php" />
         <option value="$PROJECT_DIR$/app/controllers/controller_user.php" />
         <option value="$PROJECT_DIR$/app/models/user.php" />
-        <option value="$PROJECT_DIR$/app/models/model_login.php" />
         <option value="$PROJECT_DIR$/components/Db.php" />
         <option value="$PROJECT_DIR$/config/db_params.php" />
         <option value="$PROJECT_DIR$/app/views/login_view.php" />
         <option value="$PROJECT_DIR$/app/views/reg_view.php" />
         <option value="$PROJECT_DIR$/app/models/users.php" />
-        <option value="$PROJECT_DIR$/app/models/model_user.php" />
+        <option value="$PROJECT_DIR$/app/models/model_login.php" />
+        <option value="$PROJECT_DIR$/app/models/redirect.php" />
         <option value="$PROJECT_DIR$/app/controllers/controller_login.php" />
+        <option value="$PROJECT_DIR$/app/models/model_user.php" />
       </list>
     </option>
   </component>
@@ -314,6 +331,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -415,7 +450,7 @@
       <workItem from="1472681369941" duration="1165000" />
       <workItem from="1472748710949" duration="135000" />
       <workItem from="1472761029409" duration="7811000" />
-      <workItem from="1472802517833" duration="10397000" />
+      <workItem from="1472802517833" duration="10795000" />
     </task>
     <task id="LOCAL-00001" summary="а">
       <created>1472584945450</created>
@@ -508,11 +543,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472822274828</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="&#10;    MVC&#10;">
+      <created>1472823171464</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1472823171464</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62423000" />
+    <option name="totallyTimeSpent" value="62821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -562,7 +604,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/twig/main_view.twig" />
     <entry file="file://$PROJECT_DIR$/app/controllers/controller_reg.php" />
     <entry file="file://$PROJECT_DIR$/app/models/model_user.php" />
     <entry file="file://$PROJECT_DIR$/app/models/model_reg.php" />
@@ -732,14 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/model_login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/login_view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -796,28 +829,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/model_user.php">
+    <entry file="file://$PROJECT_DIR$/app/models/model_login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="358">
+          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
           <folding>
-            <marker date="1472823103457" expanded="true" signature="312:362" ph="SELECT * FRO... users" />
-            <marker date="1472823103457" expanded="true" signature="1606:1668" ph="INSERT INTO users... " />
-            <marker date="1472823103457" expanded="true" signature="2229:2266" ph="SELECT avata... users" />
-            <marker date="1472823103457" expanded="true" signature="2229:2280" ph="SELECT avata... users" />
-            <marker date="1472823103457" expanded="true" signature="2448:2483" ph="SELECT file photo" />
-            <marker date="1472823103457" expanded="true" signature="2448:2504" ph="SELECT file photo" />
-            <marker date="1472823103457" expanded="true" signature="3008:3052" ph="SELECT file photo" />
+            <marker date="1472823437461" expanded="true" signature="345:395" ph="SELECT * FRO... users" />
+            <marker date="1472823437461" expanded="true" signature="1639:1701" ph="INSERT INTO users... " />
+            <marker date="1472823437461" expanded="true" signature="2262:2313" ph="SELECT avata... users" />
+            <marker date="1472823437461" expanded="true" signature="2481:2537" ph="SELECT file photo" />
+            <marker date="1472823437461" expanded="true" signature="3041:3085" ph="SELECT file photo" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/controller_login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="170">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding>
             <element signature="e#7#91#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/redirect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/model_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="121" column="5" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+          <folding>
+            <marker date="1472823553198" expanded="true" signature="312:362" ph="SELECT * FRO... users" />
+            <marker date="1472823553198" expanded="true" signature="1606:1668" ph="INSERT INTO users... " />
+            <marker date="1472823553198" expanded="true" signature="2229:2266" ph="SELECT avata... users" />
+            <marker date="1472823553198" expanded="true" signature="2229:2280" ph="SELECT avata... users" />
+            <marker date="1472823553198" expanded="true" signature="2448:2483" ph="SELECT file photo" />
+            <marker date="1472823553198" expanded="true" signature="2448:2504" ph="SELECT file photo" />
+            <marker date="1472823553198" expanded="true" signature="3008:3052" ph="SELECT file photo" />
           </folding>
         </state>
       </provider>
