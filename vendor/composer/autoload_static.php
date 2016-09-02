@@ -6,9 +6,20 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit927cf86276cbd0d6a9e404d98ec72e0b
 {
+    public static $prefixesPsr0 = array (
+        'T' => 
+        array (
+            'Twig_' => 
+            array (
+                0 => __DIR__ . '/..' . '/twig/twig/lib',
+            ),
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixesPsr0 = ComposerStaticInit927cf86276cbd0d6a9e404d98ec72e0b::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }

@@ -8,8 +8,15 @@
  */
 class Controller_User extends Controller
 {
-    public function action_index()
+	public function __construct()
+	{
+		$this->model = new Model_User();
+		$this->view = new View();
+	}
+
+	public function action_index()
     {
-        $this->view->generate('Страница пользователя', 'user.php');
+    	$data = $this->model->get_data();
+		$this->view->generate('user_view.php', 'template_view.php', $data);
     }
 }
