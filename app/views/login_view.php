@@ -9,7 +9,7 @@
                         <div class="form-inline">
                             <input type="password" name="password" class="form-control" placeholder="Введите пароль">
                         </div>
-                        <button type="submit" name="enter" class="btn btn-default navbar-btn" value="Вход">Вход</button>
+                        <button type="submit" name="login" class="btn btn-default navbar-btn" value="Вход">Вход</button>
                     </form>
                 </div>
             </div>

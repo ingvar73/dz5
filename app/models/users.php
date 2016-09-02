@@ -29,7 +29,7 @@ class Users
 	public static function checkPass($login, $password){
 		$user = Users::getUserDataByLogin($login);
 		$user = $user->fetch();
-		$password == $user['password'] ? return true : return false;
+		$password == $user['password'] ? true : false;
 	}
 
 	/**Проверка на занятость пользователя
@@ -38,7 +38,7 @@ class Users
 	 */
 	public static function checkUsernameExist($login){
 		$user = Users::getUserDataByLogin($login);
-		$user->fetchColumn() ? return true : return false;
+		$user->fetchColumn() ? true : false;
 	}
 
 	/** Проверка на корректность логина
@@ -46,7 +46,7 @@ class Users
 	 * @return bool
 	 */
 	public static function checkUsernameRegistartion($login){
-		((mb_strlen($login) >= 1) && (mb_strlen($login) <= 100)) ? return true : return false;
+		((mb_strlen($login) >= 1) && (mb_strlen($login) <= 100)) ? true : false;
 	}
 
 	/** TRUE если пароль корректный
@@ -56,7 +56,7 @@ class Users
 	 */
 	public static function checkPasswordRegistration($password, $cpassword){
 		if((mb_strlen($password) >= 1) && (mb_strlen($password) <= 50)){
-			($password == $cpassword) ? return true : ;
+			($password == $cpassword) ? true : false;
 		}
 		return false;
 	}
@@ -71,20 +71,27 @@ class Users
 		return $result->execute();
 	}
 
+	/**Запоминаем сессию с ID пользователя
+	 * @param $login
+	 */
 	public static function userAutorized($login){
 		$user = Users::getUserDataByLogin($login)->fetch();
 		$_SESSION['user'] = $user['id'];
 	}
 
+	/**Получаем путь до загруженного аватара
+	 * @param $id
+	 * @return bool|string
+	 */
 	public static function getAvatar($id){
 		$db = Db::getConnection();
-		$query = "SELECT avatar FROM users WHERE id = `{$id}` LIMIT 0,1";
+		$query = "SELECT avatar FROM users WHERE id = `$id` LIMIT 0,1";
 		$avatar_id = $db->query($query);
 		$avatar_id->setFetchMode(PDO::FETCH_ASSOC);
 		$avatar_id = $avatar_id->fetch();
 		$avatar_id = $avatar_id['avatar'];
 
-		$sql = "SELECT file FROM photo WHERE id = `{$avatar_id}` LIMIT 0,1";
+		$sql = "SELECT file FROM photo WHERE id = `$avatar_id` LIMIT 0,1";
 		$avatar_file = $db->query($query);
 		$avatar_file->setFetchMode(PDO::FETCH_ASSOC);
 		$avatar_file = $avatar_file->fetch();
@@ -102,5 +109,16 @@ class Users
 		unset($_SESSION['user']);
 		session_destroy();
 	}
+}
 
+class Redirect
+{
+	public static function redirectToPage($way)
+	{
+		$host  = $_SERVER['HTTP_HOST'];
+		$uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
+		$extra = $way;
+		header("Location: http://$host$uri/$extra");
+		exit;
+	}
 }

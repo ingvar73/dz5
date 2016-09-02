@@ -25,7 +25,7 @@
                             <label for="InputFile">Загрузить изображение</label>
                             <input type="file" name="avatar">
                         </div><br />
-                        <button type="submit" name="enter" class="btn btn-default" value="Регистрация">Регистрация</button>
+                        <button type="submit" name="login" class="btn btn-default" value="Регистрация">Регистрация</button>
                     </form>
                 </div>
             </div>

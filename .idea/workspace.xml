@@ -4,9 +4,12 @@
     <list id="37ffa3aa-6a63-44ae-b345-6385467448e3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/Db.php" afterPath="$PROJECT_DIR$/components/Db.php" />
     </list>
-    <list default="true" id="867e7a6c-19bd-43d9-8569-5dbbdcf0ca47" name="Failed commit: Default" comment="Squashed commit of the following:&#10;&#10;commit fb9ca1b1ff31d5abb734b05f0de842d6f529f0f0&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Fri Sep 2 01:48:06 2016 +0300&#10;&#10;    MVC&#10;&#10;commit dec5f35662359f61a5f5db41eb2f6446df9f78e5&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Fri Sep 2 01:20:55 2016 +0300&#10;&#10;    MVC&#10;&#10;commit 46e20283931a3b1c852faf626b5e3b1a5d3fd83f&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Thu Sep 1 23:18:59 2016 +0300&#10;&#10;    MVC&#10;&#10;commit ab264e645805ed3506cfdee55202c13d61829550&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Thu Sep 1 22:15:12 2016 +0300&#10;&#10;    MVC&#10;&#10;commit 1c7309f28861456534aa193953e5b1cf76daf3de&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Thu Sep 1 22:01:30 2016 +0300&#10;&#10;    MVC&#10;&#10;commit 58b075287d5b035196cb78fdc3b256d87a2e9669&#10;Merge: c3f65e3 780f31f&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Thu Sep 1 19:59:30 2016 +0300&#10;&#10;    Merge branch 'master' of https://github.com/ingvar73/dz5 into copy_master&#10;&#10;commit c3f65e3f666fd576e06ef2ce287c6e5797e8e8dc&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Thu Sep 1 19:57:45 2016 +0300&#10;&#10;    MVC&#10;">
+    <list default="true" id="867e7a6c-19bd-43d9-8569-5dbbdcf0ca47" name="Failed commit: Default" comment="&#10;    MVC&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/controller_login.php" afterPath="$PROJECT_DIR$/app/controllers/controller_login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/users.php" afterPath="$PROJECT_DIR$/app/models/users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/login_view.php" afterPath="$PROJECT_DIR$/app/views/login_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/reg_view.php" afterPath="$PROJECT_DIR$/app/views/reg_view.php" />
     </list>
     <ignored path="dz5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,47 +45,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="users.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="86" column="63" selection-start-line="86" selection-start-column="63" selection-end-line="86" selection-end-column="63" />
+            <state relative-caret-position="389">
+              <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
               <folding>
-                <marker date="1472819854462" expanded="true" signature="293:343" ph="SELECT * FRO... users" />
-                <marker date="1472819854462" expanded="true" signature="1631:1693" ph="INSERT INTO users... " />
-                <marker date="1472819854462" expanded="true" signature="2105:2158" ph="SELECT avata... users" />
-                <marker date="1472819854462" expanded="true" signature="2326:2361" ph="SELECT file photo" />
-                <marker date="1472819854462" expanded="true" signature="2326:2384" ph="SELECT file photo" />
+                <marker date="1472821079935" expanded="true" signature="293:343" ph="SELECT * FRO... users" />
+                <marker date="1472821079935" expanded="true" signature="1587:1649" ph="INSERT INTO users... " />
+                <marker date="1472821079935" expanded="true" signature="2210:2247" ph="SELECT avata... users" />
+                <marker date="1472821079935" expanded="true" signature="2210:2261" ph="SELECT avata... users" />
+                <marker date="1472821079935" expanded="true" signature="2429:2464" ph="SELECT file photo" />
+                <marker date="1472821079935" expanded="true" signature="2429:2485" ph="SELECT file photo" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/login_view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller_login.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="controller_login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/controller_login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+            <state relative-caret-position="253">
+              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+              <folding>
+                <element signature="e#7#91#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/main_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller_user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/controller_user.php">
+      <file leaf-file-name="index_view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/index_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,7 +128,6 @@
         <option value="$PROJECT_DIR$/app/views/portfolio_login.php" />
         <option value="$PROJECT_DIR$/app/views/main_view.php" />
         <option value="$PROJECT_DIR$/app/views/reg.php" />
-        <option value="$PROJECT_DIR$/app/views/reg_view.php" />
         <option value="$PROJECT_DIR$/app/views/twig/reg_view.twig" />
         <option value="$PROJECT_DIR$/app/models/model_reg.php" />
         <option value="$PROJECT_DIR$/app/models/model_user.php" />
@@ -154,14 +159,15 @@
         <option value="$PROJECT_DIR$/app/models/models_valid.php" />
         <option value="$PROJECT_DIR$/config/db_connect.php" />
         <option value="$PROJECT_DIR$/components/db.php" />
-        <option value="$PROJECT_DIR$/app/views/login_view.php" />
         <option value="$PROJECT_DIR$/app/controllers/controller_user.php" />
         <option value="$PROJECT_DIR$/app/models/user.php" />
-        <option value="$PROJECT_DIR$/app/controllers/controller_login.php" />
         <option value="$PROJECT_DIR$/app/models/model_login.php" />
         <option value="$PROJECT_DIR$/components/Db.php" />
         <option value="$PROJECT_DIR$/config/db_params.php" />
+        <option value="$PROJECT_DIR$/app/views/login_view.php" />
         <option value="$PROJECT_DIR$/app/models/users.php" />
+        <option value="$PROJECT_DIR$/app/views/reg_view.php" />
+        <option value="$PROJECT_DIR$/app/controllers/controller_login.php" />
       </list>
     </option>
   </component>
@@ -241,6 +247,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -341,7 +415,7 @@
       <workItem from="1472681369941" duration="1165000" />
       <workItem from="1472748710949" duration="135000" />
       <workItem from="1472761029409" duration="7811000" />
-      <workItem from="1472802517833" duration="7090000" />
+      <workItem from="1472802517833" duration="9501000" />
     </task>
     <task id="LOCAL-00001" summary="а">
       <created>1472584945450</created>
@@ -420,18 +494,25 @@
       <option name="project" value="LOCAL" />
       <updated>1472819696072</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&#10;    MVC&#10;">
+      <created>1472819869743</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1472819869743</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59116000" />
+    <option name="totallyTimeSpent" value="61527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.509375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -466,15 +547,14 @@
     <MESSAGE value="а" />
     <MESSAGE value="MVC" />
     <MESSAGE value="Squashed commit of the following:&#10;&#10;commit fb9ca1b1ff31d5abb734b05f0de842d6f529f0f0&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Fri Sep 2 01:48:06 2016 +0300&#10;&#10;    MVC&#10;&#10;commit dec5f35662359f61a5f5db41eb2f6446df9f78e5&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Fri Sep 2 01:20:55 2016 +0300&#10;&#10;    MVC&#10;&#10;commit 46e20283931a3b1c852faf626b5e3b1a5d3fd83f&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Thu Sep 1 23:18:59 2016 +0300&#10;&#10;    MVC&#10;&#10;commit ab264e645805ed3506cfdee55202c13d61829550&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Thu Sep 1 22:15:12 2016 +0300&#10;&#10;    MVC&#10;&#10;commit 1c7309f28861456534aa193953e5b1cf76daf3de&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Thu Sep 1 22:01:30 2016 +0300&#10;&#10;    MVC&#10;&#10;commit 58b075287d5b035196cb78fdc3b256d87a2e9669&#10;Merge: c3f65e3 780f31f&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Thu Sep 1 19:59:30 2016 +0300&#10;&#10;    Merge branch 'master' of https://github.com/ingvar73/dz5 into copy_master&#10;&#10;commit c3f65e3f666fd576e06ef2ce287c6e5797e8e8dc&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Thu Sep 1 19:57:45 2016 +0300&#10;&#10;    MVC&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Squashed commit of the following:&#10;&#10;commit fb9ca1b1ff31d5abb734b05f0de842d6f529f0f0&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Fri Sep 2 01:48:06 2016 +0300&#10;&#10;    MVC&#10;&#10;commit dec5f35662359f61a5f5db41eb2f6446df9f78e5&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Fri Sep 2 01:20:55 2016 +0300&#10;&#10;    MVC&#10;&#10;commit 46e20283931a3b1c852faf626b5e3b1a5d3fd83f&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Thu Sep 1 23:18:59 2016 +0300&#10;&#10;    MVC&#10;&#10;commit ab264e645805ed3506cfdee55202c13d61829550&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Thu Sep 1 22:15:12 2016 +0300&#10;&#10;    MVC&#10;&#10;commit 1c7309f28861456534aa193953e5b1cf76daf3de&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Thu Sep 1 22:01:30 2016 +0300&#10;&#10;    MVC&#10;&#10;commit 58b075287d5b035196cb78fdc3b256d87a2e9669&#10;Merge: c3f65e3 780f31f&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Thu Sep 1 19:59:30 2016 +0300&#10;&#10;    Merge branch 'master' of https://github.com/ingvar73/dz5 into copy_master&#10;&#10;commit c3f65e3f666fd576e06ef2ce287c6e5797e8e8dc&#10;Author: ingvar73 &lt;ingvar73@gmail.com&gt;&#10;Date:   Thu Sep 1 19:57:45 2016 +0300&#10;&#10;    MVC&#10;" />
+    <MESSAGE value="&#10;    MVC&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;    MVC&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/contact_view.php" />
-    <entry file="file://$PROJECT_DIR$/app/views/twig/reg_view.twig" />
     <entry file="file://$PROJECT_DIR$/app/views/twig/main_view.twig" />
     <entry file="file://$PROJECT_DIR$/app/controllers/controller_reg.php" />
     <entry file="file://$PROJECT_DIR$/app/models/model_user.php" />
@@ -493,7 +573,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/twig/layout.twig" />
     <entry file="file://$PROJECT_DIR$/config/routes.php" />
     <entry file="file://$PROJECT_DIR$/app/views/404_view.php" />
-    <entry file="file://$PROJECT_DIR$/app/views/main_view.php" />
     <entry file="file://$PROJECT_DIR$/app/core/route.php" />
     <entry file="file://$PROJECT_DIR$/app/app.php" />
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -614,50 +693,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/controller_index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/controller_main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/core/model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/login_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/controller_login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/controller_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -694,16 +733,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/login_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="86" column="63" selection-start-line="86" selection-start-column="63" selection-end-line="86" selection-end-column="63" />
+        <state relative-caret-position="389">
+          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
           <folding>
-            <marker date="1472819854462" expanded="true" signature="293:343" ph="SELECT * FRO... users" />
-            <marker date="1472819854462" expanded="true" signature="1631:1693" ph="INSERT INTO users... " />
-            <marker date="1472819854462" expanded="true" signature="2105:2158" ph="SELECT avata... users" />
-            <marker date="1472819854462" expanded="true" signature="2326:2361" ph="SELECT file photo" />
-            <marker date="1472819854462" expanded="true" signature="2326:2384" ph="SELECT file photo" />
+            <marker date="1472821079935" expanded="true" signature="293:343" ph="SELECT * FRO... users" />
+            <marker date="1472821079935" expanded="true" signature="1587:1649" ph="INSERT INTO users... " />
+            <marker date="1472821079935" expanded="true" signature="2210:2247" ph="SELECT avata... users" />
+            <marker date="1472821079935" expanded="true" signature="2210:2261" ph="SELECT avata... users" />
+            <marker date="1472821079935" expanded="true" signature="2429:2464" ph="SELECT file photo" />
+            <marker date="1472821079935" expanded="true" signature="2429:2485" ph="SELECT file photo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/reg_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/controller_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/controller_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/controller_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/controller_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+          <folding>
+            <element signature="e#7#91#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
