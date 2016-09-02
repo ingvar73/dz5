@@ -78,13 +78,13 @@ class Users
 
 	public static function getAvatar($id){
 		$db = Db::getConnection();
-		$query = "SELECT avatar FROM users WHERE id = '$id' LIMIT 0,1";
+		$query = "SELECT avatar FROM users WHERE id = `{$id}` LIMIT 0,1";
 		$avatar_id = $db->query($query);
 		$avatar_id->setFetchMode(PDO::FETCH_ASSOC);
 		$avatar_id = $avatar_id->fetch();
 		$avatar_id = $avatar_id['avatar'];
 
-		$sql = "SELECT file FROM photo WHERE id = '$avatar_id' LIMIT 0,1";
+		$sql = "SELECT file FROM photo WHERE id = `{$avatar_id}` LIMIT 0,1";
 		$avatar_file = $db->query($query);
 		$avatar_file->setFetchMode(PDO::FETCH_ASSOC);
 		$avatar_file = $avatar_file->fetch();
