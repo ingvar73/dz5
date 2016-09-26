@@ -16,6 +16,9 @@
       <webServer id="2b885730-ce02-4fe8-a129-eba3c9384f95" name="Guestbook" url="http://guestbook.local">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="fcfe55b6-4d63-42ac-be3d-ecc6a947e01d" name="dz8.rest" url="http://dz8.rest/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
