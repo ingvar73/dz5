@@ -6,8 +6,12 @@
           <option name="url" value="https://github.com/ingvar73/DZ06.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/ingvar73/dz8-1.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\xampp\htdocs\" />
+    <option name="cloneParentDir" value="D:\xampp\htdocs\dz8-1" />
   </component>
 </application>
